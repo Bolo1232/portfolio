@@ -52,7 +52,7 @@ st.markdown("[View Project Design](https://www.figma.com/design/jd8LrWFR43MV6DGT
 # Project 3
 st.subheader("3. FilipiKnow")
 st.write("""
-Online Learning Platform Provides a variety of resources including audio and video lessons, vocabulary lists, grammar explanations, and cultural insights to help learners of all levels improve their Filipino language skills. .
+Online Learning Platform Provides a variety of resources including audio and video lessons, vocabulary lists, grammar explanations, and cultural insights to help learners of all levels improve their Filipino language skills.
 """)
 st.markdown("[View Project Design](https://www.figma.com/design/0rVSEq3juKxm93aMEBhK1u/HCI?node-id=0-1&p=f&t=jNAbmQqqfF7zSbM3-0)")
 
@@ -61,18 +61,20 @@ st.markdown("---")
 
 # Contact Me Section
 st.header("📧 Contact Me")
-st.write("Feel free to reach out to me through the information below:")
+st.write("Feel free to reach out to me through the following channels:")
 
-# Displaying contact information
-col1, col2, col3 = st.columns(3)
+# Use columns for alignment
+col1, col2 = st.columns([1, 3])
+
 with col1:
-    st.write("**Name:**")
-    st.write("**Email:**")
-    st.write("**Contact no:**")
-with col2:
-    st.write("Xevery Jan C. Bolo")
-    st.write("[xeverybolo126@gmail.com](mailto:xeverybolo126@gmail.com)")
-    st.write("09942854992")
+    st.markdown("**Name: Xevery Jan C. Bolo**")
+    st.markdown("**Email: xeverybolo126@gmail.com**")
+    st.markdown("**Contact no: 09942854992**")
+
+
+
+    
+    # Third column left empty for spacing
 
 # Adding Social Media Links
 st.header("🔍 Find Me on Social Media")
